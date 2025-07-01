@@ -14,6 +14,8 @@ find_package(SFML 2.5 REQUIRED COMPONENTS graphics window system)
 # Source files
 add_executable(Simple2DGameEngine
         main.cpp
+        Game.cpp
+        Game.h
         # Add other source files here
 )
 
